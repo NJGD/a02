@@ -36,4 +36,11 @@ def run_tests():
 
 def powers(n):
 
+    cubes = [1, 8, 27, 64]
+    squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
+    if n == cubes[0, 3]/n:
+        print("Cube")
+
+    else:
+        print("Not a power")
