@@ -45,17 +45,19 @@ def run_tests():
 
 
 def season(month):
-    month_list = ["dec", "jan", "feb", "mar", "apr", "may", "jun",
-              "jul", "aug", "sep", "oct", "nov"]
 
-    if month.lower() == month_list[2]:
+    if month.lower() in ["jan","feb","dec"]:
         print("Winter")
-    elif month.lower() == month_list[5]:
+
+    elif month.lower() in ["mar","apr","may"]:
         print("Spring")
-    elif month.lower() == month_list[8]:
+
+    elif month.lower() in ["jun","jul","aug"]:
         print("Summer")
-    elif month.lower() == month_list[11]:
+
+    elif month.lower() in ["sep","oct","nov"]:
         print("Autumn")
+
     else:
         print("Month not recognised")
 
